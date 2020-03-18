@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F97E56D22422B55200D70C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97E56D12422B55200D70C6E /* AppDelegate.swift */; };
+		F97E56D42422B55300D70C6E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F97E56D32422B55300D70C6E /* art.scnassets */; };
+		F97E56D62422B55300D70C6E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97E56D52422B55300D70C6E /* GameViewController.swift */; };
+		F97E56D92422B55300D70C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97E56D72422B55300D70C6E /* Main.storyboard */; };
+		F97E56DB2422B55600D70C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97E56DA2422B55600D70C6E /* Assets.xcassets */; };
+		F97E56DE2422B55600D70C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97E56DC2422B55600D70C6E /* LaunchScreen.storyboard */; };
+		F97E56E92422B55600D70C6E /* kavoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97E56E82422B55600D70C6E /* kavoniaTests.swift */; };
+		F97E56F42422B55600D70C6E /* kavoniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97E56F32422B55600D70C6E /* kavoniaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F97E56E52422B55600D70C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F97E56C62422B55200D70C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F97E56CD2422B55200D70C6E;
+			remoteInfo = kavonia;
+		};
+		F97E56F02422B55600D70C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F97E56C62422B55200D70C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F97E56CD2422B55200D70C6E;
+			remoteInfo = kavonia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F97E56CE2422B55200D70C6E /* kavonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kavonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97E56D12422B55200D70C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F97E56D32422B55300D70C6E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F97E56D52422B55300D70C6E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F97E56D82422B55300D70C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F97E56DA2422B55600D70C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F97E56DD2422B55600D70C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F97E56DF2422B55600D70C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97E56E42422B55600D70C6E /* kavoniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kavoniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97E56E82422B55600D70C6E /* kavoniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kavoniaTests.swift; sourceTree = "<group>"; };
+		F97E56EA2422B55600D70C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97E56EF2422B55600D70C6E /* kavoniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kavoniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97E56F32422B55600D70C6E /* kavoniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kavoniaUITests.swift; sourceTree = "<group>"; };
+		F97E56F52422B55600D70C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F97E56CB2422B55200D70C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97E56E12422B55600D70C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97E56EC2422B55600D70C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F97E56C52422B55200D70C6E = {
+			isa = PBXGroup;
+			children = (
+				F97E56D02422B55200D70C6E /* kavonia */,
+				F97E56E72422B55600D70C6E /* kavoniaTests */,
+				F97E56F22422B55600D70C6E /* kavoniaUITests */,
+				F97E56CF2422B55200D70C6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F97E56CF2422B55200D70C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F97E56CE2422B55200D70C6E /* kavonia.app */,
+				F97E56E42422B55600D70C6E /* kavoniaTests.xctest */,
+				F97E56EF2422B55600D70C6E /* kavoniaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F97E56D02422B55200D70C6E /* kavonia */ = {
+			isa = PBXGroup;
+			children = (
+				F97E56D12422B55200D70C6E /* AppDelegate.swift */,
+				F97E56D32422B55300D70C6E /* art.scnassets */,
+				F97E56D52422B55300D70C6E /* GameViewController.swift */,
+				F97E56D72422B55300D70C6E /* Main.storyboard */,
+				F97E56DA2422B55600D70C6E /* Assets.xcassets */,
+				F97E56DC2422B55600D70C6E /* LaunchScreen.storyboard */,
+				F97E56DF2422B55600D70C6E /* Info.plist */,
+			);
+			path = kavonia;
+			sourceTree = "<group>";
+		};
+		F97E56E72422B55600D70C6E /* kavoniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F97E56E82422B55600D70C6E /* kavoniaTests.swift */,
+				F97E56EA2422B55600D70C6E /* Info.plist */,
+			);
+			path = kavoniaTests;
+			sourceTree = "<group>";
+		};
+		F97E56F22422B55600D70C6E /* kavoniaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F97E56F32422B55600D70C6E /* kavoniaUITests.swift */,
+				F97E56F52422B55600D70C6E /* Info.plist */,
+			);
+			path = kavoniaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F97E56CD2422B55200D70C6E /* kavonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97E56F82422B55600D70C6E /* Build configuration list for PBXNativeTarget "kavonia" */;
+			buildPhases = (
+				F97E56CA2422B55200D70C6E /* Sources */,
+				F97E56CB2422B55200D70C6E /* Frameworks */,
+				F97E56CC2422B55200D70C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kavonia;
+			productName = kavonia;
+			productReference = F97E56CE2422B55200D70C6E /* kavonia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F97E56E32422B55600D70C6E /* kavoniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97E56FB2422B55600D70C6E /* Build configuration list for PBXNativeTarget "kavoniaTests" */;
+			buildPhases = (
+				F97E56E02422B55600D70C6E /* Sources */,
+				F97E56E12422B55600D70C6E /* Frameworks */,
+				F97E56E22422B55600D70C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97E56E62422B55600D70C6E /* PBXTargetDependency */,
+			);
+			name = kavoniaTests;
+			productName = kavoniaTests;
+			productReference = F97E56E42422B55600D70C6E /* kavoniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F97E56EE2422B55600D70C6E /* kavoniaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97E56FE2422B55600D70C6E /* Build configuration list for PBXNativeTarget "kavoniaUITests" */;
+			buildPhases = (
+				F97E56EB2422B55600D70C6E /* Sources */,
+				F97E56EC2422B55600D70C6E /* Frameworks */,
+				F97E56ED2422B55600D70C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97E56F12422B55600D70C6E /* PBXTargetDependency */,
+			);
+			name = kavoniaUITests;
+			productName = kavoniaUITests;
+			productReference = F97E56EF2422B55600D70C6E /* kavoniaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F97E56C62422B55200D70C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Innoviox;
+				TargetAttributes = {
+					F97E56CD2422B55200D70C6E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					F97E56E32422B55600D70C6E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = F97E56CD2422B55200D70C6E;
+					};
+					F97E56EE2422B55600D70C6E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = F97E56CD2422B55200D70C6E;
+					};
+				};
+			};
+			buildConfigurationList = F97E56C92422B55200D70C6E /* Build configuration list for PBXProject "kavonia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F97E56C52422B55200D70C6E;
+			productRefGroup = F97E56CF2422B55200D70C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F97E56CD2422B55200D70C6E /* kavonia */,
+				F97E56E32422B55600D70C6E /* kavoniaTests */,
+				F97E56EE2422B55600D70C6E /* kavoniaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F97E56CC2422B55200D70C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97E56D42422B55300D70C6E /* art.scnassets in Resources */,
+				F97E56DE2422B55600D70C6E /* LaunchScreen.storyboard in Resources */,
+				F97E56DB2422B55600D70C6E /* Assets.xcassets in Resources */,
+				F97E56D92422B55300D70C6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97E56E22422B55600D70C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97E56ED2422B55600D70C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F97E56CA2422B55200D70C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97E56D62422B55300D70C6E /* GameViewController.swift in Sources */,
+				F97E56D22422B55200D70C6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97E56E02422B55600D70C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97E56E92422B55600D70C6E /* kavoniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97E56EB2422B55600D70C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97E56F42422B55600D70C6E /* kavoniaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F97E56E62422B55600D70C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F97E56CD2422B55200D70C6E /* kavonia */;
+			targetProxy = F97E56E52422B55600D70C6E /* PBXContainerItemProxy */;
+		};
+		F97E56F12422B55600D70C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F97E56CD2422B55200D70C6E /* kavonia */;
+			targetProxy = F97E56F02422B55600D70C6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F97E56D72422B55300D70C6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97E56D82422B55300D70C6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F97E56DC2422B55600D70C6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97E56DD2422B55600D70C6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F97E56F62422B55600D70C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F97E56F72422B55600D70C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F97E56F92422B55600D70C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM7F898GQH;
+				INFOPLIST_FILE = kavonia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoviox.kavonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F97E56FA2422B55600D70C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM7F898GQH;
+				INFOPLIST_FILE = kavonia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoviox.kavonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F97E56FC2422B55600D70C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM7F898GQH;
+				INFOPLIST_FILE = kavoniaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoviox.kavoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kavonia.app/kavonia";
+			};
+			name = Debug;
+		};
+		F97E56FD2422B55600D70C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM7F898GQH;
+				INFOPLIST_FILE = kavoniaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoviox.kavoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kavonia.app/kavonia";
+			};
+			name = Release;
+		};
+		F97E56FF2422B55600D70C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM7F898GQH;
+				INFOPLIST_FILE = kavoniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoviox.kavoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kavonia;
+			};
+			name = Debug;
+		};
+		F97E57002422B55600D70C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM7F898GQH;
+				INFOPLIST_FILE = kavoniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoviox.kavoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kavonia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F97E56C92422B55200D70C6E /* Build configuration list for PBXProject "kavonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97E56F62422B55600D70C6E /* Debug */,
+				F97E56F72422B55600D70C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97E56F82422B55600D70C6E /* Build configuration list for PBXNativeTarget "kavonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97E56F92422B55600D70C6E /* Debug */,
+				F97E56FA2422B55600D70C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97E56FB2422B55600D70C6E /* Build configuration list for PBXNativeTarget "kavoniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97E56FC2422B55600D70C6E /* Debug */,
+				F97E56FD2422B55600D70C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97E56FE2422B55600D70C6E /* Build configuration list for PBXNativeTarget "kavoniaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97E56FF2422B55600D70C6E /* Debug */,
+				F97E57002422B55600D70C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F97E56C62422B55200D70C6E /* Project object */;
+}
