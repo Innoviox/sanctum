@@ -1,0 +1,10 @@
+/Users/chervjay/Documents/GitHub/sanctum/target/debug/deps/unic_langid_impl-5e4e443c16f317e0.rmeta: /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/lib.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/errors.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/layout_table.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/parser/mod.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/parser/errors.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/subtags.rs
+
+/Users/chervjay/Documents/GitHub/sanctum/target/debug/deps/unic_langid_impl-5e4e443c16f317e0.d: /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/lib.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/errors.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/layout_table.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/parser/mod.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/parser/errors.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/subtags.rs
+
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/lib.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/errors.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/layout_table.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/parser/mod.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/parser/errors.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/unic-langid-impl-0.6.2/src/subtags.rs:

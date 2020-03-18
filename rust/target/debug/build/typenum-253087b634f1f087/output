@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/chervjay/Documents/GitHub/sanctum/target/debug/build/typenum-253087b634f1f087/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/chervjay/Documents/GitHub/sanctum/target/debug/build/typenum-253087b634f1f087/out/op.rs

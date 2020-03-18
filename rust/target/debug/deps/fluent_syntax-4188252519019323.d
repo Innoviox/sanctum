@@ -1,0 +1,10 @@
+/Users/chervjay/Documents/GitHub/sanctum/target/debug/deps/fluent_syntax-4188252519019323.rmeta: /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/lib.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/ast.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/parser/mod.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/parser/errors.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/parser/ftlstream.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/unicode.rs
+
+/Users/chervjay/Documents/GitHub/sanctum/target/debug/deps/fluent_syntax-4188252519019323.d: /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/lib.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/ast.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/parser/mod.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/parser/errors.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/parser/ftlstream.rs /Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/unicode.rs
+
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/lib.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/ast.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/parser/mod.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/parser/errors.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/parser/ftlstream.rs:
+/Users/chervjay/.cargo/registry/src/github.com-1ecc6299db9ec823/fluent-syntax-0.9.3/src/unicode.rs:

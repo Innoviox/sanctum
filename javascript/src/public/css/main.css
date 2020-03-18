@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 10px 0 0 0;
+    height: 100%;
+    width: 100%;
+    background-color: #7f7f7f;
+}
+
+#question {
+    /*color: white;*/
+    font-size: 30px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question {
+    text-align: center;
+}
+
+#canvas {
+    outline: none;
+}
+
+.bordered {
+    background-color: white;
+    border: 2px black groove;
+    font: 12px Arial;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+
+.smooth {
+    background-color: #7f7f7f;
+    border: none;
+}
+
+.small-canvas {
+    border: 2px black groove;
+    background-color: #ccd1d9;
+}
+
+#consent {
+    padding: 5px;
+}
+
+#consent-info {
+    margin: 0 5px 0 5px;
+}
+
+#info-ol {
+    padding: 0 0 0 15px;
+}
+
+#things {
+    padding: 0 0 0 20px;
+    margin: 0;
+    list-style-type: disc;
+}
+
+.field {
+    padding: 0 5px 0 5px; /* top right bottom left */
+}
+
+h2 { /* gets reset by user agent for some reason */
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.label, .input, .select, .textarea, .control { /* bulma makes them really big */
+    font-size: 1em;
+}
+
+#consent-table, .consent-td {
+    line-height: 1.5;
+    border: 2px black ridge;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+/* Styles copied from Bulma */
+.has-text-centered {
+    text-align: center !important;
+}
+
+.level {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* Fix glitch in semantic.min.css */
+.ui.message .list:not(.ui) li:before {
+    content: ''
+}
