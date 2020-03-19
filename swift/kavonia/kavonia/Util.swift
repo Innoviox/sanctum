@@ -53,16 +53,26 @@ let tile_map = [
 ]
 
 let test_map = """
-
+ABCDE
+FGHIJ
+KLMNO
+PQRST
 """
 
 func load_map(from map: String) -> [[SCNNode]] {
     var arr: [[SCNNode]] = []
     
-    for line in map.split(separator: "\n") {
+    let lines = map.split(separator: "\n")
+    
+    let height = lines.count
+    let width = lines[0].count
+    
+    for (i, line) in lines.enumerated() {
         arr.append([])
-        for char in line {
-            arr[-1].append(load_obj(from: tile_map[char]))
+        for (j, char)in line.enumerated() {
+            let obj = load_obj(from: tile_map[String(char)]!)
+            obj.position = SCNVector3(x: Float(i), y: Float(j), z: 0)
+            arr[-1].append(obj)
         }
     }
     

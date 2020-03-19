@@ -58,8 +58,7 @@ class GameViewController: UIViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
         scnView.addGestureRecognizer(tapGesture)
         
-        let obj = load_obj(from: "tile")
-        scene.rootNode.addChildNode(obj)
+        load_map(from: test_map)
     }
     
     @objc
