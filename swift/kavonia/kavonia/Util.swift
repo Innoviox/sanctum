@@ -71,11 +71,11 @@ class Tile {
 }
 
 let test_map = """
-R↑E←a←
-l←l→l←
-Z→l→l←
-l←I→I→
-U→A→A↓
+R↑l E←l R←
+l←M l→M l←
+Z→M l→M l←
+l←M l→M l→
+U→M R→l R↓
 """
 
 func load_map(from map: String, to scene: SCNScene) -> [[Tile]] {
