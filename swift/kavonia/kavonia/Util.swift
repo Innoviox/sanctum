@@ -52,26 +52,41 @@ let tile_map = [
     "m": "tile_treeQuad",
 ]
 
+let rotations: [String: Float] = [
+    "←": .pi / 2,
+    "→": .pi * 3 / 2,
+    "↑": 0,
+    "↓": .pi
+]
+
+class Tile {
+    var node: SCNNode
+    
+    init(_ obj: SCNNode, pos: SCNVector3, rot: Float) {
+        node = obj
+        node.position = pos
+        node.rotation = SCNVector4(0, 1, 0, rot)
+    }
+}
+
 let test_map = """
-ABCDE
-FGHIJ
-KLMNO
-PQRST
+R↑
+Z→
 """
 
-func load_map(from map: String, to scene: SCNScene) -> [[SCNNode]] {
-    var arr: [[SCNNode]] = []
+func load_map(from map: String, to scene: SCNScene) -> [[Tile]] {
+    var arr: [[Tile]] = []
     
     let lines = map.split(separator: "\n")
 
     for (i, line) in lines.enumerated() {
-        var row: [SCNNode] = []
-        for (j, char)in line.enumerated() {
-            let obj = load_obj(from: tile_map[String(char)]!)
-            obj.position = SCNVector3(x: Float(i), y: 0, z: Float(j))
-            scene.rootNode.addChildNode(obj)
+        var row: [Tile] = []
+        for (j, char) in line.pairs.enumerated() {
+            let obj = load_obj(from: tile_map[String(char)[0]]!)
             
-            row.append(obj)
+            row.append(Tile(obj, pos: SCNVector3(x: Float(i), y: 0, z: Float(j)), rot: Float(rotations[String(char)[1]]!)))
+            
+            scene.rootNode.addChildNode(obj)
         }
         arr.append(row)
     }
@@ -88,4 +103,23 @@ func load_obj(from file: String) -> SCNNode {
          else { fatalError("Failed to get mesh from asset.") }
 
     return SCNNode(mdlObject: object)
+}
+
+extension Collection {
+    var pairs: [SubSequence] {
+        var startIndex = self.startIndex
+        let count = self.count
+        let n = count/2 + count % 2
+        return (0..<n).map { _ in
+            let endIndex = index(startIndex, offsetBy: 2, limitedBy: self.endIndex) ?? self.endIndex
+            defer { startIndex = endIndex }
+            return self[startIndex..<endIndex]
+        }
+    }
+}
+
+extension String {
+    subscript (i: Int) -> String {
+        return String(self[index(startIndex, offsetBy: i)])
+    }
 }

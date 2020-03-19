@@ -12,7 +12,7 @@ import SceneKit
 
 class GameViewController: UIViewController {
     var scene: SCNScene!
-    var map: [[SCNNode]] = []
+    var map: [[Tile]] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
