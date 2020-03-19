@@ -56,7 +56,8 @@ let rotations: [String: Float] = [
     "←": .pi / 2,
     "→": .pi * 3 / 2,
     "↑": 0,
-    "↓": .pi
+    "↓": .pi,
+    " ": 0
 ]
 
 class Tile {
@@ -70,8 +71,11 @@ class Tile {
 }
 
 let test_map = """
-R↑
-Z→
+R↑E←a←
+l←l→l←
+Z→l→l←
+l←I→I→
+U→A→A↓
 """
 
 func load_map(from map: String, to scene: SCNScene) -> [[Tile]] {
