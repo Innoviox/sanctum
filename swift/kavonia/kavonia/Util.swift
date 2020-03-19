@@ -59,21 +59,21 @@ KLMNO
 PQRST
 """
 
-func load_map(from map: String) -> [[SCNNode]] {
+func load_map(from map: String, to scene: SCNScene) -> [[SCNNode]] {
     var arr: [[SCNNode]] = []
     
     let lines = map.split(separator: "\n")
-    
-    let height = lines.count
-    let width = lines[0].count
-    
+
     for (i, line) in lines.enumerated() {
-        arr.append([])
+        var row: [SCNNode] = []
         for (j, char)in line.enumerated() {
             let obj = load_obj(from: tile_map[String(char)]!)
-            obj.position = SCNVector3(x: Float(i), y: Float(j), z: 0)
-            arr[-1].append(obj)
+            obj.position = SCNVector3(x: Float(i), y: 0, z: Float(j))
+            scene.rootNode.addChildNode(obj)
+            
+            row.append(obj)
         }
+        arr.append(row)
     }
     
     return arr

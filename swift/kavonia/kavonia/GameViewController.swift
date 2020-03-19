@@ -12,6 +12,7 @@ import SceneKit
 
 class GameViewController: UIViewController {
     var scene: SCNScene!
+    var map: [[SCNNode]] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,7 +59,7 @@ class GameViewController: UIViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
         scnView.addGestureRecognizer(tapGesture)
         
-        load_map(from: test_map)
+        map = load_map(from: test_map, to: scene)
     }
     
     @objc
