@@ -8,11 +8,4 @@
 
 import Foundation
 import SceneKit
-
-class Tile {
-    var node: SCNNode
-    
-    init(filepath: String) {
-        node = SCNScene(named: filepath).rootNode.childNodes[0]
-    }
-}
+import SceneKit.ModelIO
